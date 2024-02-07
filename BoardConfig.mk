@@ -197,6 +197,9 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_MAX_BRIGHTNESS := 2047
 TW_DEFAULT_BRIGHTNESS := 489
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
+TW_PREPARE_DATA_MEDIA_EARLY := true
+TW_SKIP_ADDITIONAL_FSTAB := true
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 
 # Show build time on the splash screen
 TW_DEVICE_VERSION=$(shell date '+%Y%m%d')
@@ -204,6 +207,7 @@ TW_DEVICE_VERSION=$(shell date '+%Y%m%d')
 # TWRP Debug Flags
 TARGET_USES_LOGD := true
 TWRP_INCLUDE_LOGCAT := true
+
 #TARGET_RECOVERY_DEVICE_MODULES += debuggerd
 #RECOVERY_BINARY_SOURCE_FILES += $(TARGET_OUT_EXECUTABLES)/debuggerd
 #TARGET_RECOVERY_DEVICE_MODULES += strace
