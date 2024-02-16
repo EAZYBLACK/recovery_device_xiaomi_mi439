@@ -16,7 +16,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/twrp_mi439.mk
+	$(LOCAL_DIR)/pb_mi439.mk
 
 COMMON_LUNCH_CHOICES := \
 	pb_mi439-eng
