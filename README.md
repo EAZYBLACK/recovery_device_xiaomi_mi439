@@ -1,4 +1,4 @@
-OrangeFox Recovery Device configuration for Xiaomi SDM439 Devices
+Pitch Black Recovery Device configuration for Xiaomi SDM439 Devices
 ============================================================
 
 Devices Unified:
