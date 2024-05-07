@@ -1,4 +1,4 @@
-Pitch Black Recovery Device configuration for Xiaomi SDM439 Devices
+SHRP Device configuration for Xiaomi SDM439 Devices
 ============================================================
 
 Devices Unified:
